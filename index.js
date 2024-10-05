@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:['*','http://localhost:5173','https://jp-frontend-tau.vercel.app','https://job-dhundo.vercel.app'],
+    origin:['https://jp-frontend-f99u8yppf-manavs-projects-94a598ca.vercel.app','http://localhost:5173','https://jp-frontend-tau.vercel.app','https://job-dhundo.vercel.app'],
     credentials:true
 }
 
